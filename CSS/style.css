@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+.navbar p a{
+    background: url(../IMG/icono.png) no-repeat center center;
+    margin-top: 2%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+    
+}
+
+.navsuperior {
+    background-color: rgb(101, 117, 144);
+}
+
+.navInferior{
+    background-color: white;
+
+}
+
+/* Aplica los estilos solo en pantallas sm y md */
+@media (max-width: 991px) {
+    .navbar p a {
+      /* Posicionar el elemento en el extremo derecho de la pantalla */
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 0;
+    }
+    
+    .navbar-nav.navInferior li {
+        width: 100%; 
+        text-align: left;
+        padding-left: 2%;
+        
+    }
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1040px) {
+    .accordion-body p {
+        font-size: 0.95em;
+    }
+}
+
+.card1{
+    height: 28em;
+    background-color: rgb(114, 131, 156);
+    object-fit: cover;
+    display: block;
+}
+
+.imgs{
+    background-image: url(../IMG/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.acord{
+    background-color: darkgray;
+}
+
+.butAcord{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(45, 89, 154);
+}
+
+.section2{
+    color: rgb(107, 122, 145);
+}
+
+.titulosect2{
+    border-bottom: 2px solid white;
+}
+
+.tituloFoot{
+    color: rgb(45, 89, 154);
+}
+
+.presentacion{
+    color: rgb(107, 122, 145);
+    font-size: 1em;
+    text-align: justify;
+}
+.presentacion strong{
+    font-weight: 500;
+}
+
